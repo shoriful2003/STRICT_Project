@@ -1,0 +1,83 @@
+@media only screen and (max-width: 1600px) {
+    .showcase_img:hover .showimg_overlay{
+        width: 95%;
+    }
+}
+@media only screen and (max-width: 1400px) {
+    .showcase_img:hover .showimg_overlay{
+        width: 94.5%;
+    }
+}
+@media only screen and (max-width: 1368px) {
+    .showcase_img:hover .showimg_overlay{
+        width: 94%;
+    }
+}
+@media only screen and (max-width: 991px) {
+    .feature_con h4{
+        font-size: 20px;
+    }
+    
+}
+
+
+@media only screen and (max-width: 767px) {
+    .nav-item{
+        text-align: center;
+    }
+
+    .hero_heading{
+        font-size: 90px;
+    }
+    .hero_devider{
+       width: 400px;
+    }
+
+    .hero_para{
+        font-size: 19px;
+    }
+
+    .hero_anchor{
+        width: 180px !important;
+        font-size: 18px !important;
+    }
+    .about_para{
+        font-size: 20px;
+        line-height: 25px;
+    }
+    .feature_con p{
+        padding: 0% 20% 0% 20%;
+    }
+    .showcase_con h3{
+        font-size: 35px;
+    }
+    .showcase_img:hover .showimg_overlay{
+        width: 91%;
+    }
+}
+
+@media only screen and (max-width: 320px){
+    .hero_devider{
+        width: 250px;
+    }
+    .hero_heading{
+        font-size: 60px;
+        letter-spacing: 4px;
+    }
+    .about_heading{
+        font-size: 28px;
+    }
+    .about_para{
+        font-size: 16px;
+    }
+    .showcase_img:hover .showimg_overlay{
+        width: 92.5%;
+    }
+    .checkbox_con label{
+        font-size: 16px;
+    }
+
+    ul{
+        padding-left: 0rem;
+    }
+}

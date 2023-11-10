@@ -1,0 +1,253 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    list-style: none !important;
+    text-decoration: none !important;
+    font-family: 'Lato', sans-serif;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+h1 h2 h3 h4 h5 h6{
+    font-family: 'Lato', sans-serif;
+}
+
+:root{
+    --color1: #f5f9f9;
+    --color2: #ffffff;
+    --color3: #47b9ff;
+    --color4: #2d3950;
+    --color5: #15a3f9;
+    --color6: #999999;
+    --color7: #99a0a9;
+}
+
+/* ===== nav part style start here ===== */
+    nav{
+        background-color: var(--color1);
+    }
+    .nav-link{
+        font-size: 24px;
+        color: var(--color4);
+        font-weight: 600;
+        transition: all .4s;
+    }
+
+    .nav-link:hover{
+        color: var(--color3) !important;
+    }
+/* ===== nav part style end here ===== */
+
+/* ===== hero part style start here ===== */
+
+.hero_part{
+    
+    height: 100vh;
+    background-image: url(../Image/bg\ img.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    opacity: 100%;
+}
+
+.hero_heading{
+    font-size: 120px;
+    color: var(--color2);
+    font-weight: 600;
+}
+
+.hero_devider{
+    height: 1px;
+    width: 600px;
+    border: 1px solid var(--color5);
+    
+}
+
+.hero_para{
+    font-size: 20px;
+    color: var(--color2);
+}
+
+.hero_anchor{
+    transition: all .4s;
+}
+
+.hero_anchor:hover{
+    background-color: var(--color3);
+    border-color: var(--color3) !important;
+}
+
+
+
+/* ===== hero part style end here ===== */
+
+/* ===== about part style style here ===== */
+.about_part{
+    background-color: var(--color1);
+}
+.about_heading{
+    font-size: 40px;
+    font-weight: 600;
+    color: var(--color4);
+}
+
+.about_para{
+    font-size: 20px;
+    color: var(--color6);
+}
+/* ===== about part style end here ===== */
+
+/* ===== feature part style atyle here ===== */
+
+.feature_part{
+    background-color: var(--color2);
+}
+.feature_con h4{
+    font-size: 22px;
+    color: var(--color4);
+}
+
+.feature_con p{
+    font-size: 15px;
+    color: var(--color6);
+    padding: 0px 25px ;
+}
+
+.feature_img{
+    transition: all .5s;
+}
+
+.feature_img:hover{
+    box-shadow: 0 0 16px rgba(0, 0, 0, .60) ;
+
+}
+/* ===== feature part style end here ===== */
+
+/* ===== showcase part style style here ===== */
+
+.showcase_part{
+    background-color: var(--color1);
+}
+
+.showcase_con h3{
+    font-size: 40px;
+    font-weight: 600;
+    color: var(--color4);
+}
+
+.showcase_con p{
+    font-size: 18px;
+    color: var(--color6);
+}
+
+
+.showimg_overlay{
+    background-color: rgba(44, 171, 247,.80);
+    top: 0;
+    width: 0%;
+    visibility: hidden;
+    opacity: 0;
+    transition: all .8s;
+}
+
+.showimg_overlay .icon {
+    height: 40px;
+    width: 40px;
+    border: 2px solid var(--color2);
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.showcase_img:hover .showimg_overlay{
+    visibility: visible;
+    opacity: 1;
+    width: 94%;
+}
+
+/* ===== showcase part style end here ===== */
+
+
+.pre_footer_part{
+    min-height: 80vh;
+    background-image: url(../Image/footer\ bg\ img.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    opacity: 100%;
+}
+
+.pre_footer_part h3{
+    font-size: 40px;
+    font-weight: 600;
+    color: var(--color2);
+    padding-top: 50px;
+}
+
+.pre_footer_part p{
+    font-size: 16px;
+    color: var(--color6);
+}
+
+/* form part */
+form{
+    padding: 0% 15% 10% 15%;
+}
+form input{
+    padding-left: 10px;
+    color: var(--color6);
+}
+
+form input::placeholder{
+    color: var(--color6) !important;
+}
+
+form textarea{
+    resize: none;
+}
+form textarea::placeholder{
+    color: var(--color6) !important;
+}
+
+.checkbox_con label{
+    font-size: 18px;
+}
+
+.send_button .btn{
+    width: 100px !important;
+    transition: all .4s;
+}
+
+.send_button .btn:hover{
+    background-color: var(--color3) !important;
+}
+
+.footer_link_part i{
+    font-size: 20px;
+}
+
+.footer_link_part a{
+    height: 40px;
+    width: 40px;
+    background-color: var(--color5);
+    border: 2px solid var(--color5);
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--color1);
+    transition: all .8s;
+}
+
+.footer_link_part a:hover{
+    background-color: transparent;
+    color: var(--color4);
+    border-color: var(--color4);
+}
+
