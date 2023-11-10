@@ -55,6 +55,11 @@
         width: 91%;
     }
 }
+@media only screen and (max-width: 571px){
+    .showcase_img:hover .showimg_overlay{
+        width: 96%;
+    }
+}
 
 @media only screen and (max-width: 320px){
     .hero_devider{
