@@ -61,6 +61,27 @@
     }
 }
 
+@media only screen and (max-width: 550px){
+    .showcase_img:hover .showimg_overlay{
+        width: 95.8%;
+    }
+}
+@media only screen and (max-width: 450px){
+    .showcase_img:hover .showimg_overlay{
+        width: 94.8%;
+    }
+}
+@media only screen and (max-width: 400px){
+    .showcase_img:hover .showimg_overlay{
+        width: 94%;
+    }
+}
+@media only screen and (max-width: 350px){
+    .showcase_img:hover .showimg_overlay{
+        width: 93%;
+    }
+}
+
 @media only screen and (max-width: 320px){
     .hero_devider{
         width: 250px;
